@@ -1,0 +1,12 @@
+<section>
+  <app-header></app-header>
+  <app-banner></app-banner>
+  <div class="wrapper">
+    <app-paginator></app-paginator>
+    <app-services></app-services>
+    <app-twitter></app-twitter>
+  </div>
+  <app-footer></app-footer>
+</section>
+<p>{{ 'Welcome!' | addUsername }}</p>
+{{ currentWeatherData | json }}

@@ -1,0 +1,24 @@
+@import "../../../../styles//variables.scss";
+
+.navigation {
+  align-items: center;
+  display: flex;
+
+  &__list {
+    margin-bottom: 0;
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 12px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    font-size: 14px;
+    color: $c-grey;
+  }
+}

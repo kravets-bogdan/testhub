@@ -1,0 +1,13 @@
+@import "../../../../styles//variables.scss";
+
+.footer {
+  background-color: $c-light-grey;
+  font-size: 14px;
+  padding: 13px;
+}
+
+.wrapper {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}

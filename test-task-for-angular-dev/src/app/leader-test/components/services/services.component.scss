@@ -1,0 +1,46 @@
+@import "../../../../styles//variables.scss";
+
+.services {
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  padding-top: 14px;
+  display: grid;
+
+  &__block {
+    background-color: $c-light-grey;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 82px;
+    width: 100%;
+  }
+
+  &__text {
+    position: absolute;
+    font-size: 15px;
+    line-height: 1;
+
+    &--bottom {
+      bottom: 7px;
+    }
+
+    &--top {
+      top: 7px;
+    }
+
+    &--left {
+      left: 7px;
+    }
+
+    &--right {
+      right: 7px;
+    }
+
+    &--top-right {
+      right: 0;
+      top: 0;
+    }
+  }
+}

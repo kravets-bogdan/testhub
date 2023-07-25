@@ -1,0 +1,18 @@
+.logo {
+  width: 100px;
+}
+
+q {
+  font-style: italic;
+  font-size: 1.2rem;
+  quotes: "« " " »";
+}
+
+.link {
+  background-color: silver;
+  transform: translateX(-50%);
+  position: absolute;
+  color: white;
+  padding: 20px;
+  left: 50%;
+}
